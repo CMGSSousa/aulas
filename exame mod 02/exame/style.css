@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"droid" ;
+    src: url(fontes/idroid.otf);
+
+
+
+    /*
+    apontamentos aqui dentdo 
+
+    */    
+}
+a {
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: #84E1AD;
+   
+}
+header {
+   
+    background-image: linear-gradient(to bottom,#3CDB83,#154C2E); 
+    box-shadow: 7px 13px 12px 0px black;
+    
+
+}
+
+header > h1 {
+    font-family: fantasy, 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    
+    
+}
+
+header > p {
+    color: rgb(149, 170, 190);
+    text-align: center;
+}
+
+nav {
+    
+    color: white;   
+    margin-left: 80px;    
+}
+nav > ol >li {
+    display: inline-block;
+    margin: 8px;
+  
+
+}
+
+main {
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    background-color: white;
+
+}
+
+main > h1, h2 {
+    
+    font-family: droid, 'Courier New', Courier, monospace;
+    color: #618E75;
+}
+main > h2 {
+    background-image: linear-gradient(to right, #84E1AD, white);
+}
+.bugdroid  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+}
+#box_youtube1 {
+    background-color: #1A5C38;
+    width: auto;
+    height: auto;
+    margin: auto;
+
+}
+
+iframe.yt1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px;
+    width: 732px;
+    height: 365px;
+        
+}
+
+.box_links {
+    display: block;
+    width: auto ;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#C5EBD6;
+    border-radius: 4%;    
+
+}
+article > h3 {
+    
+    background-color: chartreuse;
+    height: 20px;
+    margin-left: -10px;   
+
+}
+
+
+.lista_esquerda {
+    display: block;
+   
+    width: auto;
+    height: auto;
+}
+
+li.lista_direita {
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #1A5C38;
+    margin: 0px;
+    color: white;
+}
+footer > p > span {
+    color: aqua;
+}

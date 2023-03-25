@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body style="font: bold;">
+    <p ><h1>Desafio das Imagens</h1>
+    Inserir imagens em HTML é muito simples, tanto no conteudo quanto lá em cima, como no icone de favoritos! <p>
+    
+   <img src="1.png" alt="1"> <img src="2.png" alt="2"> <img src="3.png" alt=""><br>
+   <img src="4.png" alt="4"> <img src="5.png" alt="5"> <img src="6.png" alt="6"><br>
+   <img src="7.png" alt="7"> <img src="8.png" alt="8"> <img src="9.png" alt="9"><br>
+
+   teste bold
+   <div>
+
+    <h1>Meus emojis favoritos</h1> 
+
+    <ul>
+        <h2>Carinhas</h2>
+
+        <li>&#8986;
+        <li>&#x1F596; 
+
+        <h2>Dedos</h2>
+        <li>&#8986;
+        <li>&#x1F596; 
+    
+        </li>
+    </ul>
+
+   </div>
+
+   <ul>
+        <li style="font-style: italic;"><img src="1.png" alt="sem rede" width="20" height="20"><a href="www.sapo.pt" target="_blank" rel="external"> /SAPO</a> - Inscreve-te no meu canal</li>
+   </ul>
+
+   <ul>
+        <li style="color: crimson;"><a href="https://www.slbenfica.pt" target="_blank" rel="external"><button><abbr title="Sport Lisboa e Benfica">SLB</abbr></a></button></li>
+
+        <li style="color: crimson;"> <button><abbr title="Futebol clube dos porcos">FCP</abbr></button>
+
+        <li style="align-items: unset; color: chartreuse;"><abbr title="Sporting clube dos Porcos">SCP</abbr></li>
+
+  
+  
+    </ul>
+
+<h1>Teste de foto dinâmica</h1>
+<!--imagem flexivel que varia consoante o tamanho do ecrã do dispositivo.
+ Atenção ao PNG a colocar manualmente e á extensão PNG a acrescentar no type, além do MAX e não MIN width
+atenção à orden das sources que é invertida-->
+<picture>
+    <source media="(max-width: 500px)" srcset="paisagem-p.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="paisagem-m.png" type="image/png">
+    <img src="paisagem-g.png" alt="imagem flexivel">
+</picture>
+
+
+
+<!--audio para download, ou musica ambiente-->
+<h1>Teste de audio</h1>
+<p>Temos uma musica em vários formatos, e autoplay para som ambiente</p>
+
+<audio src="happy-mistake.mp3" controls autoplay loop></audio>Happy Mistake
+
+
+
+
+
+<!--musica para ouvir automaticamente e não para download!-->
+<h1>Audio automátio em vários formatos</h1>
+<p>Este cenário para tocar a mesma música em vários formatos caso o browser não suporte o 1º da lista, tenta ler o 2º</p>
+
+<audio preload="metadata" autoplay controls loop>
+    <source src="guanacast-33.mp3" type="audio/mpeg">   <source src="happy-mistake.mp3" type="audio/mpeg">
+
+    <!--vários formatos mp3,wav,ogg, mas evitar o wav porque são demasiado pesados-->
+    <!--source src para audio-->
+
+</audio>
+
+    <h1>Vamos treinar video</h1>
+    <p>video em linha</p>
+
+        <video src="video/meu-video.mp4" poster="imagem/limoes-capa.png" width="400" controls></video>
+
+<h2>video em fila com varios formatos</h2>
+
+    <video width="500" preload="metadata" poster="imagem/limoes-capa.png" controls>
+        <source src="video/meu-video.m4v" type="video/mp4">
+        <source src="video/meu-video.webm" type="video/webm">
+    </video>
+
+    <h1>video do youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?start=141" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</video>
+
+    <p></p>
+
+
+</body>
+<h1>Videos porreiros para assistir</h1>
+<a href="1.html" target="_self" rel="intern"><img src="imagem/thumb-python.png" alt="pag1"></a>
+<a href="2.html" target="_self" rel="intern"><img src="imagem/thumb-js.png" alt="pag2"></a>
+
+
+
+
+
+
+
+
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
